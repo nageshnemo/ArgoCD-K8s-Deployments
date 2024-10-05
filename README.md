@@ -7,9 +7,9 @@ Sure! Here’s a structured `README.md` file for your GitHub project:
 
 ## Prerequisites
 
-1. *Google Cloud Platform (GCP) Account*: Make sure you have a GCP account.
-2. *kubectl*: Ensure you have kubectl installed and configured to interact with your GKE cluster.
-3. *jq*: Install `jq` for JSON processing, if not already installed.
+1. Google Cloud Platform (GCP) Account: Make sure you have a GCP account.
+2. kubectl: Ensure you have kubectl installed and configured to interact with your GKE cluster.
+3. jq: Install `jq` for JSON processing, if not already installed.
 
 ## Steps to Set Up
 
@@ -26,6 +26,7 @@ Sure! Here’s a structured `README.md` file for your GitHub project:
 ```bash
 gcloud container clusters get-credentials [YOUR_CLUSTER_NAME] --zone [YOUR_ZONE] --project [YOUR_PROJECT_ID]
 ```
+![image](https://github.com/user-attachments/assets/3f31d8c7-13f9-4f36-8f6e-2b71ed06ed5c)
 
 ### 4. Install Argo CD
 
