@@ -64,6 +64,10 @@ By default, the Argo CD API server is not exposed with an external IP. You can c
     kubectl patch svc argocd-server -n argocd -p '{"spec": {"type": "LoadBalancer"}}'
     ```
 
+![image](https://github.com/user-attachments/assets/817ae41c-0f8e-497b-b164-727f1183067e)
+
+
+
 #### Port Forwarding
 
 - Alternatively, use kubectl port-forwarding to connect to the API server without exposing the service:
@@ -106,8 +110,12 @@ kubectl get secret argocd-initial-admin-secret -n argocd -o json | jq -r .data.p
 
 - Modify the image in your Kubernetes deployment to see the sync in action between Argo CD and your deployment.
 
+  ![image](https://github.com/user-attachments/assets/28e007f4-e884-4e1a-a6cf-d04fd5a0d350)
+
+
 ## Conclusion
 
 You’ve successfully set up a GCP project, created a GKE cluster, installed Argo CD, and connected it to your GitHub repository. Enjoy managing your Kubernetes deployments with Argo CD!
 ```
+![image](https://github.com/user-attachments/assets/b4bd629d-6c32-4cc7-9081-e51683f2f92e)
 
