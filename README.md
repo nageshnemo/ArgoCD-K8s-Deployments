@@ -7,9 +7,9 @@ Sure! Here’s a structured `README.md` file for your GitHub project:
 
 ## Prerequisites
 
-1. **Google Cloud Platform (GCP) Account**: Make sure you have a GCP account.
-2. **kubectl**: Ensure you have kubectl installed and configured to interact with your GKE cluster.
-3. **jq**: Install `jq` for JSON processing, if not already installed.
+1. *Google Cloud Platform (GCP) Account*: Make sure you have a GCP account.
+2. *kubectl*: Ensure you have kubectl installed and configured to interact with your GKE cluster.
+3. *jq*: Install `jq` for JSON processing, if not already installed.
 
 ## Steps to Set Up
 
