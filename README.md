@@ -110,12 +110,15 @@ kubectl get secret argocd-initial-admin-secret -n argocd -o json | jq -r .data.p
 
 - Modify the image in your Kubernetes deployment to see the sync in action between Argo CD and your deployment.
 
-  ![image](https://github.com/user-attachments/assets/28e007f4-e884-4e1a-a6cf-d04fd5a0d350)
+ ![image](https://github.com/user-attachments/assets/4232189a-80cc-4873-b9fd-696b30a111ec)
+
 
 
 ## Conclusion
 
 You’ve successfully set up a GCP project, created a GKE cluster, installed Argo CD, and connected it to your GitHub repository. Enjoy managing your Kubernetes deployments with Argo CD!
 ```
-![image](https://github.com/user-attachments/assets/b4bd629d-6c32-4cc7-9081-e51683f2f92e)
+
+![image](https://github.com/user-attachments/assets/5df5a188-9682-4a7c-b851-1606f8152f20)
+
 
